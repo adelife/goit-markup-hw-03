@@ -149,8 +149,9 @@ border-bottom: 1px solid #e7e9fc
     height: 600px;
     text-align: center;
     background-color: #2E2F42;
+    padding: 188px 0;
 }
-.banner-inner{
+.banner-inner{ /**baner div **/
     justify-content: flex-end;
     align-items: center;
     flex-basis: auto;
@@ -158,6 +159,7 @@ border-bottom: 1px solid #e7e9fc
     padding-bottom: 48px;
 }
 .banner-title{
+    max-width: 496px;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -166,6 +168,7 @@ border-bottom: 1px solid #e7e9fc
     color: #FFFFFF;
 }
 .banner-button{
+    display: block;
     font-family: "Roboto",sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -175,6 +178,10 @@ border-bottom: 1px solid #e7e9fc
     color: #FFF;
     cursor: pointer;
     padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .banner-button:hover,
 .banner-button:focus{
