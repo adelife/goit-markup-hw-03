@@ -191,14 +191,13 @@ border-bottom: 1px solid #e7e9fc
     background-color: #FFF;
     padding: 120px 0;
 }
-.feture-li{
+.faeture-li{
     width: calc((100% - 72px) / 4);
 }
 .feature-list{
     display: flex;
     gap:24px;
     margin-bottom: 120px;
-    flex-basis: calc((100%-312px)/4);
 }
 .feature-title{
     color: #2e2f42;
