@@ -117,8 +117,8 @@ border-bottom: 1px solid #e7e9fc
     text-decoration: underline;
 }
 .heder-contact{
-    font-style: normal;
     display: flex;
+    font-style: normal;
     gap: 40px
 }
 .contact{
