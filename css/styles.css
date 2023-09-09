@@ -218,6 +218,7 @@ border-bottom: 1px solid #e7e9fc
 .team{
     background-color: #F4F4FD;
     max-height: 732px;
+    padding: 120px 0;
 }
 .team-title{
     color: #2e2f42;
@@ -239,10 +240,11 @@ border-bottom: 1px solid #e7e9fc
 }
 .team-ittem{
     background-color: #FFF;
-    flex-basis: calc((100%-312px)/4);
-}
-.team-card{
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+}
+.name-person{
+    padding: 32px 0;
 }
 .team-person{
     color: #2e2f42;
@@ -251,8 +253,8 @@ border-bottom: 1px solid #e7e9fc
     line-height: 24px;
     letter-spacing: 0.4px;
     text-align: center;
-    margin-top: 32px;
     margin-bottom: 8px;
+    
 }
 .team-text{
     color: #434455;
