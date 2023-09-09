@@ -127,7 +127,7 @@ border-bottom: 1px solid #e7e9fc
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-right: 40px
+    margin-right: 40px;
 }
 .contact:last-child{
     margin: 0;
@@ -165,6 +165,7 @@ border-bottom: 1px solid #e7e9fc
     line-height: 1.07;
     letter-spacing: 1.12px;
     text-align: center;
+   margin-bottom: 48px;
     color: #FFFFFF;
 }
 .banner-button{
@@ -319,20 +320,15 @@ border-bottom: 1px solid #e7e9fc
     margin-bottom: 32px;
     padding: 0 16px;
 }
-footer{
+.footer-page{
     display: flex;
     background-color: #2E2F42;
     width: 1440px;
     height: 312px;
-    flex-shrink: 0;
-    margin-top: 120px;
-    align-content: flex-start;
-}
-.foter-list{
-    align-content: flex-start;
-    flex-wrap: wrap;
+    padding: 100px 0;
 }
 .logo-footer{
+    display: inline-block;
     font-family: Raleway,sans-serif;
     color:#4D5AE5;
     font-size: 18px;
@@ -341,10 +337,9 @@ footer{
     text-transform: uppercase;
     line-height: 1.17;
     text-decoration: none;
-    padding-top: 101px;
-    padding-bottom: 17px;
-    margin: auto;
-}
+    margin-bottom: 16px;
+} 
+
 .span-logo-footer{
     color: #F4F4FD;
 
@@ -355,6 +350,6 @@ footer{
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 17px;
+    max-width: 264px;
 
 }
